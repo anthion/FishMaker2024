@@ -1,0 +1,575 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		61DB59EF2CF806F100BBA7BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 61DB59D62CF806EF00BBA7BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 61DB59DD2CF806EF00BBA7BF;
+			remoteInfo = FishMaker2024;
+		};
+		61DB59F92CF806F100BBA7BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 61DB59D62CF806EF00BBA7BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 61DB59DD2CF806EF00BBA7BF;
+			remoteInfo = FishMaker2024;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		61DB59DE2CF806EF00BBA7BF /* FishMaker2024.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FishMaker2024.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		61DB59EE2CF806F100BBA7BF /* FishMaker2024Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FishMaker2024Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		61DB59F82CF806F100BBA7BF /* FishMaker2024UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FishMaker2024UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		61DB5A222CF8077700BBA7BF /* Exceptions for "FishMaker2024" folder in "FishMaker2024" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				App/FishMaker2024App.swift,
+				Assets.xcassets,
+				Models/LightFieldData.swift,
+				"Preview Content/Preview Assets.xcassets",
+				Utils/ImageProcessing.swift,
+				ViewModels/LightFieldViewModel.swift,
+				Views/ContentView.swift,
+				Views/LightFieldView.swift,
+			);
+			target = 61DB59DD2CF806EF00BBA7BF /* FishMaker2024 */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		61DB59F12CF806F100BBA7BF /* FishMaker2024Tests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = FishMaker2024Tests;
+			sourceTree = "<group>";
+		};
+		61DB59FB2CF806F100BBA7BF /* FishMaker2024UITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = FishMaker2024UITests;
+			sourceTree = "<group>";
+		};
+		61DB5A1D2CF8077700BBA7BF /* FishMaker2024 */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				61DB5A222CF8077700BBA7BF /* Exceptions for "FishMaker2024" folder in "FishMaker2024" target */,
+			);
+			path = FishMaker2024;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		61DB59DB2CF806EF00BBA7BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61DB59EB2CF806F100BBA7BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61DB59F52CF806F100BBA7BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		61DB59D52CF806EF00BBA7BF = {
+			isa = PBXGroup;
+			children = (
+				61DB59F12CF806F100BBA7BF /* FishMaker2024Tests */,
+				61DB59FB2CF806F100BBA7BF /* FishMaker2024UITests */,
+				61DB59DF2CF806EF00BBA7BF /* Products */,
+				61DB5A1D2CF8077700BBA7BF /* FishMaker2024 */,
+			);
+			sourceTree = "<group>";
+		};
+		61DB59DF2CF806EF00BBA7BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				61DB59DE2CF806EF00BBA7BF /* FishMaker2024.app */,
+				61DB59EE2CF806F100BBA7BF /* FishMaker2024Tests.xctest */,
+				61DB59F82CF806F100BBA7BF /* FishMaker2024UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		61DB59DD2CF806EF00BBA7BF /* FishMaker2024 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61DB5A022CF806F100BBA7BF /* Build configuration list for PBXNativeTarget "FishMaker2024" */;
+			buildPhases = (
+				61DB59DA2CF806EF00BBA7BF /* Sources */,
+				61DB59DB2CF806EF00BBA7BF /* Frameworks */,
+				61DB59DC2CF806EF00BBA7BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FishMaker2024;
+			packageProductDependencies = (
+			);
+			productName = FishMaker2024;
+			productReference = 61DB59DE2CF806EF00BBA7BF /* FishMaker2024.app */;
+			productType = "com.apple.product-type.application";
+		};
+		61DB59ED2CF806F100BBA7BF /* FishMaker2024Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61DB5A052CF806F100BBA7BF /* Build configuration list for PBXNativeTarget "FishMaker2024Tests" */;
+			buildPhases = (
+				61DB59EA2CF806F100BBA7BF /* Sources */,
+				61DB59EB2CF806F100BBA7BF /* Frameworks */,
+				61DB59EC2CF806F100BBA7BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				61DB59F02CF806F100BBA7BF /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				61DB59F12CF806F100BBA7BF /* FishMaker2024Tests */,
+			);
+			name = FishMaker2024Tests;
+			packageProductDependencies = (
+			);
+			productName = FishMaker2024Tests;
+			productReference = 61DB59EE2CF806F100BBA7BF /* FishMaker2024Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		61DB59F72CF806F100BBA7BF /* FishMaker2024UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61DB5A082CF806F100BBA7BF /* Build configuration list for PBXNativeTarget "FishMaker2024UITests" */;
+			buildPhases = (
+				61DB59F42CF806F100BBA7BF /* Sources */,
+				61DB59F52CF806F100BBA7BF /* Frameworks */,
+				61DB59F62CF806F100BBA7BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				61DB59FA2CF806F100BBA7BF /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				61DB59FB2CF806F100BBA7BF /* FishMaker2024UITests */,
+				61DB5A1D2CF8077700BBA7BF /* FishMaker2024 */,
+			);
+			name = FishMaker2024UITests;
+			packageProductDependencies = (
+			);
+			productName = FishMaker2024UITests;
+			productReference = 61DB59F82CF806F100BBA7BF /* FishMaker2024UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		61DB59D62CF806EF00BBA7BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					61DB59DD2CF806EF00BBA7BF = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					61DB59ED2CF806F100BBA7BF = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 61DB59DD2CF806EF00BBA7BF;
+					};
+					61DB59F72CF806F100BBA7BF = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 61DB59DD2CF806EF00BBA7BF;
+					};
+				};
+			};
+			buildConfigurationList = 61DB59D92CF806EF00BBA7BF /* Build configuration list for PBXProject "FishMaker2024" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 61DB59D52CF806EF00BBA7BF;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 61DB59DF2CF806EF00BBA7BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				61DB59DD2CF806EF00BBA7BF /* FishMaker2024 */,
+				61DB59ED2CF806F100BBA7BF /* FishMaker2024Tests */,
+				61DB59F72CF806F100BBA7BF /* FishMaker2024UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		61DB59DC2CF806EF00BBA7BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61DB59EC2CF806F100BBA7BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61DB59F62CF806F100BBA7BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		61DB59DA2CF806EF00BBA7BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61DB59EA2CF806F100BBA7BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61DB59F42CF806F100BBA7BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		61DB59F02CF806F100BBA7BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 61DB59DD2CF806EF00BBA7BF /* FishMaker2024 */;
+			targetProxy = 61DB59EF2CF806F100BBA7BF /* PBXContainerItemProxy */;
+		};
+		61DB59FA2CF806F100BBA7BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 61DB59DD2CF806EF00BBA7BF /* FishMaker2024 */;
+			targetProxy = 61DB59F92CF806F100BBA7BF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		61DB5A002CF806F100BBA7BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		61DB5A012CF806F100BBA7BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		61DB5A032CF806F100BBA7BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FishMaker2024/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = aheath.FishMaker2024;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		61DB5A042CF806F100BBA7BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FishMaker2024/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = aheath.FishMaker2024;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		61DB5A062CF806F100BBA7BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = aheath.FishMaker2024Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FishMaker2024.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FishMaker2024";
+			};
+			name = Debug;
+		};
+		61DB5A072CF806F100BBA7BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = aheath.FishMaker2024Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FishMaker2024.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FishMaker2024";
+			};
+			name = Release;
+		};
+		61DB5A092CF806F100BBA7BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = aheath.FishMaker2024UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FishMaker2024;
+			};
+			name = Debug;
+		};
+		61DB5A0A2CF806F100BBA7BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = aheath.FishMaker2024UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FishMaker2024;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		61DB59D92CF806EF00BBA7BF /* Build configuration list for PBXProject "FishMaker2024" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61DB5A002CF806F100BBA7BF /* Debug */,
+				61DB5A012CF806F100BBA7BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61DB5A022CF806F100BBA7BF /* Build configuration list for PBXNativeTarget "FishMaker2024" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61DB5A032CF806F100BBA7BF /* Debug */,
+				61DB5A042CF806F100BBA7BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61DB5A052CF806F100BBA7BF /* Build configuration list for PBXNativeTarget "FishMaker2024Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61DB5A062CF806F100BBA7BF /* Debug */,
+				61DB5A072CF806F100BBA7BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61DB5A082CF806F100BBA7BF /* Build configuration list for PBXNativeTarget "FishMaker2024UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61DB5A092CF806F100BBA7BF /* Debug */,
+				61DB5A0A2CF806F100BBA7BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 61DB59D62CF806EF00BBA7BF /* Project object */;
+}
